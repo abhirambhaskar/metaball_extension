@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+  <name>Metaballs</name>
+  <id>render.metaballs</id>
+  <image>metaballs.svg</image>
+
+  <param name="blur" type="float" _gui-text="Radius" appearance="full" min="0.1" max="30" default="5"/>
+  <param name="threshold" type="float" _gui-text="Alpha threshold" appearance="full" min="0" max="1" default="0.5"/>
+  <effect>
+      <object-type>all</object-type>
+      <effects-menu>
+          <submenu name="Render"/>
+      </effects-menu>                                 
+  </effect>
+  <hbox>
+      <spacer size="expand" />
+      <image>logo.svg</image>
+  </hbox>
+  <label appearance="url">https://www.youtube.com/channel/UCASr7sg0r0w1LrbU0A_Z8aw</label>
+  
+  <script>
+        <command location="inx" interpreter="python">metaballs.py</command>
+  </script>
+</inkscape-extension>
