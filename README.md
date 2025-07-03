@@ -2,7 +2,8 @@
 
 This Inkscape extension allows you to create dynamic and organic-looking metaball shapes directly within Inkscape.
 
-![App Screenshot](https://inkscape.gitlab.io/extensions/documentation/_images/color.png)
+
+![App Screenshot](https://github.com/abhirambhaskar/metaball_extension/blob/main/metaballs.svg)
 
 ## Table of contents
 
@@ -37,7 +38,8 @@ The location of your Inkscape extensions folder varies depending on your operati
 
   `~/.config/inkscape/extensions/` (user-specific)
 
- Tip: You can often find the path to your user extensions folder directly within Inkscape. Go to `Edit > Preferences > System` and look for `"User extensions".`
+> [!TIP]
+> You can often find the path to your user extensions folder directly within Inkscape. Go to `Edit > Preferences > System` and look for `"User extensions".`
 
 ### 3. Copy the Extension Files
 Copy the **`metaball.py`** and **`metaball.inx`** files (and any other accompanying files from the extension) into the Inkscape extensions folder you located in the previous step.
