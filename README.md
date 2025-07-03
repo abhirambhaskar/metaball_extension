@@ -2,6 +2,8 @@
 
 This Inkscape extension allows you to create dynamic and organic-looking metaball shapes directly within Inkscape.
 
+![App Screenshot](https://inkscape.gitlab.io/extensions/documentation/_images/color.png)
+
 ## Table of contents
 
 - [Installation](#installation)
